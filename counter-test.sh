@@ -1,7 +1,7 @@
 #!/bin/bash
 
 res=result.txt
-./counter-scripts.sh
+./counter-script.sh
 
 if [[ $? -eq 0 ]] && [[ -f $res ]]
 then
