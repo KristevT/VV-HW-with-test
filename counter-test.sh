@@ -2,7 +2,7 @@
 
 res=result.txt
 
-chmod +x counter-test.sh
+chmod +x counter-script.sh
 ./counter-script.sh
 
 if [[ $? -eq 0 ]] && [[ -f $res ]]
