@@ -1,6 +1,8 @@
 #!/bin/bash
 
 res=result.txt
+
+chmod +x counter-test.sh
 ./counter-script.sh
 
 if [[ $? -eq 0 ]] && [[ -f $res ]]
