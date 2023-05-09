@@ -1,7 +1,7 @@
 #!/bin/bash
 
 res=result.txt
-./groups_same.sh $text1 $text2
+./counter-scripts.sh
 
 if [[ $? -eq 0 ]] && [[ -f $res ]]
 then
