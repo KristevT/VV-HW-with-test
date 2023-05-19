@@ -6,10 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    # - name: Тест - существующая папка
-    #   run: |
-    #     chmod +x counter-test1.sh
-    #     ./counter-test1.sh
+    - name: Тест - существующая папка
+      run: |
+        chmod +x counter-test1.sh
+        ./counter-test1.sh
     - name: Тест - недействительная папка
       run: |
         chmod +x counter-test2.sh
