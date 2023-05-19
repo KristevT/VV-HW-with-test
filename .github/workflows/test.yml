@@ -10,10 +10,10 @@ jobs:
     #   run: |
     #     chmod +x counter-test1.sh
     #     ./counter-test1.sh
-    # - name: Тест - недействительная папка
-    #   run: |
-    #     chmod +x counter-test3.sh
-    #     ./counter-test2.sh
+    - name: Тест - недействительная папка
+      run: |
+        chmod +x counter-test3.sh
+        ./counter-test2.sh
     - name: Тест - нет аргумента
       run: |
         chmod +x counter-test3.sh
