@@ -1,9 +1,12 @@
 #!/bin/bash
 
+# в этом тесте дан действительный аргумент 
+
 res=result.txt
+fol=Folder
 
 chmod +x counter-script.sh
-./counter-script.sh
+./counter-script.sh $fol
 
 if [[ $? -eq 0 ]] && [[ -f $res ]]
 then
